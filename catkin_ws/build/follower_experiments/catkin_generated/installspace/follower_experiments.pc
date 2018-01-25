@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/Documents/HRI-akubota/catkin_ws/install
+
+Name: follower_experiments
+Description: Description of follower_experiments
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/turtlebot/Documents/HRI-akubota/catkin_ws/install/lib 
+Requires: 

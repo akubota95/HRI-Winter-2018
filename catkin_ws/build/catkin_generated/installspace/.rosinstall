@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/turtlebot/Documents/HRI-akubota/catkin_ws/install/setup.sh

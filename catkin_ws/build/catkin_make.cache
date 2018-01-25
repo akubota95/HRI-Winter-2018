@@ -1,0 +1,2 @@
+beginner_tutorials:follower_experiments
+-DCATKIN_DEVEL_PREFIX=/home/turtlebot/Documents/HRI-akubota/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/turtlebot/Documents/HRI-akubota/catkin_ws/install -G Unix Makefiles
