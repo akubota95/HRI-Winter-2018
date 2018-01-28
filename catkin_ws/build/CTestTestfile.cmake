@@ -5,5 +5,10 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_apps)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_rapps)
 SUBDIRS(beginner_tutorials)
-SUBDIRS(follower_experiments)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_actions)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_calibration)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_follower)
+SUBDIRS(turtlebot_apps-indigo/turtlebot_navigation)

@@ -1,2 +1,2 @@
-beginner_tutorials:follower_experiments
+beginner_tutorials:turtlebot_apps-indigo/turtlebot_actions:turtlebot_apps-indigo/turtlebot_apps:turtlebot_apps-indigo/turtlebot_calibration:turtlebot_apps-indigo/turtlebot_follower:turtlebot_apps-indigo/turtlebot_navigation:turtlebot_apps-indigo/turtlebot_rapps
 -DCATKIN_DEVEL_PREFIX=/home/turtlebot/Documents/HRI-akubota/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/turtlebot/Documents/HRI-akubota/catkin_ws/install -G Unix Makefiles

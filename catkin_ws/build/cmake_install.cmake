@@ -117,8 +117,13 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_apps/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_rapps/cmake_install.cmake")
   INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
-  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/follower_experiments/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_actions/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_calibration/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_follower/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/Documents/HRI-akubota/catkin_ws/build/turtlebot_apps-indigo/turtlebot_navigation/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -149,44 +149,6 @@ depend:
 	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-follower_experiments/CMakeFiles/follower.dir/rule:
-	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 follower_experiments/CMakeFiles/follower.dir/rule
-.PHONY : follower_experiments/CMakeFiles/follower.dir/rule
-
-# Convenience name for target.
-follower: follower_experiments/CMakeFiles/follower.dir/rule
-.PHONY : follower
-
-# fast build rule for target.
-follower/fast:
-	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(MAKE) -f follower_experiments/CMakeFiles/follower.dir/build.make follower_experiments/CMakeFiles/follower.dir/build
-.PHONY : follower/fast
-
-src/hw5follower2.3.7.o: src/hw5follower2.3.7.cpp.o
-.PHONY : src/hw5follower2.3.7.o
-
-# target to build an object file
-src/hw5follower2.3.7.cpp.o:
-	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(MAKE) -f follower_experiments/CMakeFiles/follower.dir/build.make follower_experiments/CMakeFiles/follower.dir/src/hw5follower2.3.7.cpp.o
-.PHONY : src/hw5follower2.3.7.cpp.o
-
-src/hw5follower2.3.7.i: src/hw5follower2.3.7.cpp.i
-.PHONY : src/hw5follower2.3.7.i
-
-# target to preprocess a source file
-src/hw5follower2.3.7.cpp.i:
-	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(MAKE) -f follower_experiments/CMakeFiles/follower.dir/build.make follower_experiments/CMakeFiles/follower.dir/src/hw5follower2.3.7.cpp.i
-.PHONY : src/hw5follower2.3.7.cpp.i
-
-src/hw5follower2.3.7.s: src/hw5follower2.3.7.cpp.s
-.PHONY : src/hw5follower2.3.7.s
-
-# target to generate assembly for a file
-src/hw5follower2.3.7.cpp.s:
-	cd /home/turtlebot/Documents/HRI-akubota/catkin_ws/build && $(MAKE) -f follower_experiments/CMakeFiles/follower.dir/build.make follower_experiments/CMakeFiles/follower.dir/src/hw5follower2.3.7.cpp.s
-.PHONY : src/hw5follower2.3.7.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,16 +156,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... follower"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/hw5follower2.3.7.o"
-	@echo "... src/hw5follower2.3.7.i"
-	@echo "... src/hw5follower2.3.7.s"
 .PHONY : help
 
 
